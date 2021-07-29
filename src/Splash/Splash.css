@@ -1,0 +1,78 @@
+.splash-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    color: #ffffff;
+}
+.splash-text{
+    height: 30%;
+}
+.text-box{
+    border: 1px solid #595959;
+    background-color: #ffffff;
+}
+.inner-text{
+    color: #595959;
+    margin: 8px;
+}
+.outer-box{
+    padding: 8px;
+    background-color: #ffffff;
+}
+
+.github{
+        font-size: 40px;
+        color: black;
+        margin: 0 10px;
+}
+    
+.brands-wrapper{
+    display: flex;
+    flex-direction: row;  
+    justify-content: center;
+    align-items: center;  
+    padding: 12px 0; 
+    color: black;
+}
+
+.name{
+    font-size: 40px;
+    margin: 0;
+    color: black;
+}
+.splash-subtext {
+    color: black;
+    font-size: 38px;
+    font-weight: 600;
+}
+
+
+/* // MEDIA QUERIES    */
+@media screen and (min-width: 640px) {
+    #splash {
+        /* // background: linear-gradient(to bottom, rgba(0,0,0,.4) 0%,rgba(0,0,0,0) 100%),url('../../assets/trees-horizon.jpg'); */
+        -webkit-clip-path: circle(100% at 50% 5%);
+        clip-path: circle(100% at 50% 5%);
+        background-size: cover;
+        background-repeat: no-repeat;   
+        height: 65vh;
+        margin-top: 1.5vw;
+        margin-left: 1.5vw;
+        margin-right: 1.5vw;
+    }
+    .splash-text {
+        height: 60%;
+    }
+    .name{
+    font-size: 60px;
+    }
+    .github{
+        color: black;
+    }
+    .inner-text{
+        font-size: 27px;
+        color: black;
+    }
+}

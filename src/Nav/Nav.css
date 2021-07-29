@@ -1,0 +1,20 @@
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-portfolio {
+    font-weight: 600;
+    font-size: 18px;
+}
+.nav-links {
+    display: flex;
+    font-size: 12px;
+}
+.nav-link {
+    padding-right: 8px;
+    cursor: pointer;
+}
+.nav-link:last-child {
+    padding-right: 0;
+}

@@ -1,0 +1,10 @@
+.email {
+    margin-top: 10px;
+    color: black;
+    font-size: 22px;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+#contact {
+    padding-bottom: 10px;
+}
